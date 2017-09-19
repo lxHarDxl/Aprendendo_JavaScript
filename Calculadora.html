@@ -1,0 +1,30 @@
+<script type="text/javascript">
+// Vamos criar uma função que recebe 3 parâmetros: número 1, número 2 e a operação. Ela vai fazer testes para identificar qual operação está sendo solicitada e imprimirá o resultado do cálculo.
+
+function calculadora(num1,num2,op){
+	var res = "Calculadora <br><br>";
+
+	switch(op){
+		case "+":
+			res = num1+num2;
+			document.write(num1+" "+op+" "+num2+" = "+res);
+			brake;
+		case "-":
+			res = num1-num2;
+			document.write(num1+" "+op+" "+num2+" = "+res);
+			brake;
+		case "*":
+			res = num1*num2;
+			document.write(num1+" "+op+" "+num2+" = "+res);
+			brake;
+		case "/":
+			res = num1/num2;
+			document.write(num1+" "+op+" "+num2+" = "+res);
+			brake;
+	}
+
+}
+
+calculadora(3,4,"+");
+
+</script>
